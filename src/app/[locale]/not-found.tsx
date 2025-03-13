@@ -1,6 +1,7 @@
 'use client';
 
 import Card from '@/components/common/Card';
+import InteractiveBackground from '@/components/common/InteractiveBackground';
 import { useRouter } from '@/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 
@@ -14,6 +15,8 @@ export default function Page() {
   }
 
   return (
+    <>
+    <InteractiveBackground />
     <div className="container flex items-center justify-center">
       <Card>
         <div className="m-16 flex flex-col items-center justify-center">
@@ -28,5 +31,6 @@ export default function Page() {
         </div>
       </Card>
     </div>
+    </>
   );
 }
