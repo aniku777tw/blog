@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "title": "Chill guy nick",
+    "description": "A website that records life."
+  },
+  "NotFoundPage": {
+    "title": "404 - Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist.",
+    "button": "Go to Home"
+  },
+  "Navbar" : {
+    "logo": "Chill guy nick",
+    "locale": "Language",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "title": "Welcome to Chill guy nick"
+  }
+}
